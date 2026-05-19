@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>样板预览 v1</title>
+  <style>
+    body { font-family: 'Microsoft YaHei', sans-serif; margin: 0; padding: 24px; background: #eef3f8; color: #17202a; }
+    h1 { margin: 0 0 8px; font-size: 32px; }
+    p { margin: 0 0 20px; color: #4b5563; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card { background: white; padding: 16px; border-radius: 18px; box-shadow: 0 10px 30px rgba(15,23,42,.10); }
+    .row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    img { width: 100%; display: block; border-radius: 14px; }
+  </style>
+</head>
+<body>
+  <h1>样板预览 v1</h1>
+  <p>当前展示 4 张事件牌样板、2 页使用手册样板与总览拼图。</p>
+  <div class="card"><img src="../preview/sample_overview.png" alt="总览"></div>
+  <div class="grid" style="margin-top:18px;">
+    <div class="card"><div class="row">
+      <img src="../cards/E02_front.png" alt="E02 front"><img src="../cards/E02_back.png" alt="E02 back">
+    </div></div>
+    <div class="card"><div class="row">
+      <img src="../cards/E05_front.png" alt="E05 front"><img src="../cards/E05_back.png" alt="E05 back">
+    </div></div>
+    <div class="card"><img src="../handbook/handbook_cover.png" alt="handbook cover"></div>
+    <div class="card"><img src="../handbook/handbook_detail.png" alt="handbook detail"></div>
+  </div>
+</body>
+</html>

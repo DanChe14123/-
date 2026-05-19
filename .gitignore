@@ -1,0 +1,48 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Temporary working files
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.orig
+*.log
+
+# Generated outputs and submission packages
+output/
+submission/
+*.zip
+
+# Large exported media
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Regenerable v2 card/export artifacts
+card/final/v2/generated_illustrations/
+card/final/v2/print_ready_samples/
+card/final/v2/print_ready_samples_backup_*/
+card/final/v2/参赛文件/
+card/版面样例/
+manual/visual_rulebook_v2/

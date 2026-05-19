@@ -1,0 +1,1111 @@
+{
+  "version": "v2",
+  "generated_at": "2026-04-28T22:18:19",
+  "card_count": 120,
+  "side_count": 240,
+  "sample_illustrations": {
+    "E02": "card/final/v2/illustrations/samples/E02.png",
+    "E05": "card/final/v2/illustrations/samples/E05.png",
+    "E15": "card/final/v2/illustrations/samples/E15.png",
+    "T03": "card/final/v2/illustrations/samples/T03.png",
+    "A01": "card/final/v2/illustrations/samples/A01.png",
+    "A08": "card/final/v2/illustrations/samples/A08.png",
+    "P01": "card/final/v2/illustrations/samples/P01.png",
+    "R02": "card/final/v2/illustrations/samples/R02.png"
+  },
+  "type_counts": {
+    "event": 36,
+    "task": 18,
+    "action": 24,
+    "role": 6,
+    "post": 4,
+    "strategy": 8,
+    "debrief": 24
+  },
+  "validation": {
+    "card_count": 120,
+    "issues": []
+  },
+  "cards": [
+    {
+      "card_id": "E01",
+      "card_type": "event",
+      "title": "未佩戴护目镜开始操作",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E01_front.png",
+      "back_path": "card/final/v2/events/E01_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E02",
+      "card_type": "event",
+      "title": "试剂瓶标签模糊",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E02_front.png",
+      "back_path": "card/final/v2/events/E02_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "E03",
+      "card_type": "event",
+      "title": "废液桶标签缺失",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E03_front.png",
+      "back_path": "card/final/v2/events/E03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E04",
+      "card_type": "event",
+      "title": "手套污染后继续接触门把手",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E04_front.png",
+      "back_path": "card/final/v2/events/E04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E05",
+      "card_type": "event",
+      "title": "开放环境转移挥发性溶剂",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E05_front.png",
+      "back_path": "card/final/v2/events/E05_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "E06",
+      "card_type": "event",
+      "title": "易燃溶剂靠近热源",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E06_front.png",
+      "back_path": "card/final/v2/events/E06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E07",
+      "card_type": "event",
+      "title": "酸液转移出现飞溅",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E07_front.png",
+      "back_path": "card/final/v2/events/E07_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E08",
+      "card_type": "event",
+      "title": "玻璃器皿出现裂纹",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E08_front.png",
+      "back_path": "card/final/v2/events/E08_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E09",
+      "card_type": "event",
+      "title": "气瓶未固定",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E09_front.png",
+      "back_path": "card/final/v2/events/E09_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E10",
+      "card_type": "event",
+      "title": "通风橱门开度过高",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E10_front.png",
+      "back_path": "card/final/v2/events/E10_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E11",
+      "card_type": "event",
+      "title": "废液混放风险",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E11_front.png",
+      "back_path": "card/final/v2/events/E11_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E12",
+      "card_type": "event",
+      "title": "实验无人值守",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E12_front.png",
+      "back_path": "card/final/v2/events/E12_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E13",
+      "card_type": "event",
+      "title": "皮肤接触腐蚀性液体",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E13_front.png",
+      "back_path": "card/final/v2/events/E13_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E14",
+      "card_type": "event",
+      "title": "闻嗅未知气味",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E14_front.png",
+      "back_path": "card/final/v2/events/E14_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E15",
+      "card_type": "event",
+      "title": "实验台出现小型明火",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E15_front.png",
+      "back_path": "card/final/v2/events/E15_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "E16",
+      "card_type": "event",
+      "title": "锐器混入普通垃圾",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E16_front.png",
+      "back_path": "card/final/v2/events/E16_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E17",
+      "card_type": "event",
+      "title": "加热装置温度异常升高",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E17_front.png",
+      "back_path": "card/final/v2/events/E17_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E18",
+      "card_type": "event",
+      "title": "设备未断电且记录缺失",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E18_front.png",
+      "back_path": "card/final/v2/events/E18_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E19",
+      "card_type": "event",
+      "title": "样品瓶盖未拧紧",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E19_front.png",
+      "back_path": "card/final/v2/events/E19_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E20",
+      "card_type": "event",
+      "title": "离心样品配平异常",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E20_front.png",
+      "back_path": "card/final/v2/events/E20_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E21",
+      "card_type": "event",
+      "title": "旋蒸夹具松动",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E21_front.png",
+      "back_path": "card/final/v2/events/E21_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E22",
+      "card_type": "event",
+      "title": "废液桶接近满载",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E22_front.png",
+      "back_path": "card/final/v2/events/E22_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E23",
+      "card_type": "event",
+      "title": "未知粉末散落并引发不适",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E23_front.png",
+      "back_path": "card/final/v2/events/E23_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E24",
+      "card_type": "event",
+      "title": "临时容器无二次标签",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E24_front.png",
+      "back_path": "card/final/v2/events/E24_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E25",
+      "card_type": "event",
+      "title": "冷凝水管连接松动",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E25_front.png",
+      "back_path": "card/final/v2/events/E25_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E26",
+      "card_type": "event",
+      "title": "样品记录与瓶身不一致",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E26_front.png",
+      "back_path": "card/final/v2/events/E26_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E27",
+      "card_type": "event",
+      "title": "PPE 尺寸不合适",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E27_front.png",
+      "back_path": "card/final/v2/events/E27_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E28",
+      "card_type": "event",
+      "title": "吸液管污染交叉使用",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E28_front.png",
+      "back_path": "card/final/v2/events/E28_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E29",
+      "card_type": "event",
+      "title": "反应瓶压力异常",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E29_front.png",
+      "back_path": "card/final/v2/events/E29_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E30",
+      "card_type": "event",
+      "title": "强氧化剂靠近有机物",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E30_front.png",
+      "back_path": "card/final/v2/events/E30_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E31",
+      "card_type": "event",
+      "title": "实验室通道被纸箱占用",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E31_front.png",
+      "back_path": "card/final/v2/events/E31_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E32",
+      "card_type": "event",
+      "title": "洗眼器前堆放杂物",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E32_front.png",
+      "back_path": "card/final/v2/events/E32_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E33",
+      "card_type": "event",
+      "title": "试剂架放置过高过满",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E33_front.png",
+      "back_path": "card/final/v2/events/E33_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E34",
+      "card_type": "event",
+      "title": "低温样品结霜难以辨认",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E34_front.png",
+      "back_path": "card/final/v2/events/E34_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E35",
+      "card_type": "event",
+      "title": "学生独自处理高危事件",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E35_front.png",
+      "back_path": "card/final/v2/events/E35_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "E36",
+      "card_type": "event",
+      "title": "复盘记录遗漏改进措施",
+      "folder": "events",
+      "front_path": "card/final/v2/events/E36_front.png",
+      "back_path": "card/final/v2/events/E36_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T01",
+      "card_type": "task",
+      "title": "危险化学品领取与登记",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T01_front.png",
+      "back_path": "card/final/v2/tasks/T01_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T02",
+      "card_type": "task",
+      "title": "通风橱准备与气流确认",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T02_front.png",
+      "back_path": "card/final/v2/tasks/T02_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T03",
+      "card_type": "task",
+      "title": "加热回流装置搭建",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T03_front.png",
+      "back_path": "card/final/v2/tasks/T03_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "T04",
+      "card_type": "task",
+      "title": "有机溶剂转移",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T04_front.png",
+      "back_path": "card/final/v2/tasks/T04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T05",
+      "card_type": "task",
+      "title": "酸碱溶液配制",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T05_front.png",
+      "back_path": "card/final/v2/tasks/T05_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T06",
+      "card_type": "task",
+      "title": "气瓶连接与检漏",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T06_front.png",
+      "back_path": "card/final/v2/tasks/T06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T07",
+      "card_type": "task",
+      "title": "反应过程记录",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T07_front.png",
+      "back_path": "card/final/v2/tasks/T07_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T08",
+      "card_type": "task",
+      "title": "废液分类收集",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T08_front.png",
+      "back_path": "card/final/v2/tasks/T08_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T09",
+      "card_type": "task",
+      "title": "玻璃器皿检查",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T09_front.png",
+      "back_path": "card/final/v2/tasks/T09_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T10",
+      "card_type": "task",
+      "title": "离心样品配平",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T10_front.png",
+      "back_path": "card/final/v2/tasks/T10_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T11",
+      "card_type": "task",
+      "title": "旋蒸装置检查",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T11_front.png",
+      "back_path": "card/final/v2/tasks/T11_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T12",
+      "card_type": "task",
+      "title": "实验台收尾清理",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T12_front.png",
+      "back_path": "card/final/v2/tasks/T12_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T13",
+      "card_type": "task",
+      "title": "PPE 检查与更换",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T13_front.png",
+      "back_path": "card/final/v2/tasks/T13_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T14",
+      "card_type": "task",
+      "title": "未知样品初步确认",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T14_front.png",
+      "back_path": "card/final/v2/tasks/T14_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T15",
+      "card_type": "task",
+      "title": "小型泄漏围堵",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T15_front.png",
+      "back_path": "card/final/v2/tasks/T15_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T16",
+      "card_type": "task",
+      "title": "火源风险排查",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T16_front.png",
+      "back_path": "card/final/v2/tasks/T16_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T17",
+      "card_type": "task",
+      "title": "人员暴露初期处置",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T17_front.png",
+      "back_path": "card/final/v2/tasks/T17_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "T18",
+      "card_type": "task",
+      "title": "异常情况复盘记录",
+      "folder": "tasks",
+      "front_path": "card/final/v2/tasks/T18_front.png",
+      "back_path": "card/final/v2/tasks/T18_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A01",
+      "card_type": "action",
+      "title": "补全 PPE",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A01_front.png",
+      "back_path": "card/final/v2/actions/A01_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "A02",
+      "card_type": "action",
+      "title": "核对标签",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A02_front.png",
+      "back_path": "card/final/v2/actions/A02_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A03",
+      "card_type": "action",
+      "title": "记录台账",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A03_front.png",
+      "back_path": "card/final/v2/actions/A03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A04",
+      "card_type": "action",
+      "title": "移入通风橱",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A04_front.png",
+      "back_path": "card/final/v2/actions/A04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A05",
+      "card_type": "action",
+      "title": "分类回收",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A05_front.png",
+      "back_path": "card/final/v2/actions/A05_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A06",
+      "card_type": "action",
+      "title": "隔离现场",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A06_front.png",
+      "back_path": "card/final/v2/actions/A06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A07",
+      "card_type": "action",
+      "title": "使用应急设施",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A07_front.png",
+      "back_path": "card/final/v2/actions/A07_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A08",
+      "card_type": "action",
+      "title": "撤离与警戒",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A08_front.png",
+      "back_path": "card/final/v2/actions/A08_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "A09",
+      "card_type": "action",
+      "title": "上报负责人",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A09_front.png",
+      "back_path": "card/final/v2/actions/A09_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A10",
+      "card_type": "action",
+      "title": "切断热源电源",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A10_front.png",
+      "back_path": "card/final/v2/actions/A10_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A11",
+      "card_type": "action",
+      "title": "检查并更换器材",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A11_front.png",
+      "back_path": "card/final/v2/actions/A11_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A12",
+      "card_type": "action",
+      "title": "固定与规范连接",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A12_front.png",
+      "back_path": "card/final/v2/actions/A12_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A13",
+      "card_type": "action",
+      "title": "围堵泄漏",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A13_front.png",
+      "back_path": "card/final/v2/actions/A13_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A14",
+      "card_type": "action",
+      "title": "降温与稳定",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A14_front.png",
+      "back_path": "card/final/v2/actions/A14_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A15",
+      "card_type": "action",
+      "title": "中和处理",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A15_front.png",
+      "back_path": "card/final/v2/actions/A15_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A16",
+      "card_type": "action",
+      "title": "清洁去污",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A16_front.png",
+      "back_path": "card/final/v2/actions/A16_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A17",
+      "card_type": "action",
+      "title": "持续监测",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A17_front.png",
+      "back_path": "card/final/v2/actions/A17_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A18",
+      "card_type": "action",
+      "title": "暂停操作",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A18_front.png",
+      "back_path": "card/final/v2/actions/A18_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A19",
+      "card_type": "action",
+      "title": "确认相容性",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A19_front.png",
+      "back_path": "card/final/v2/actions/A19_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A20",
+      "card_type": "action",
+      "title": "沟通交接",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A20_front.png",
+      "back_path": "card/final/v2/actions/A20_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A21",
+      "card_type": "action",
+      "title": "资源调度",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A21_front.png",
+      "back_path": "card/final/v2/actions/A21_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A22",
+      "card_type": "action",
+      "title": "复盘原因",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A22_front.png",
+      "back_path": "card/final/v2/actions/A22_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A23",
+      "card_type": "action",
+      "title": "设置警戒标识",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A23_front.png",
+      "back_path": "card/final/v2/actions/A23_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "A24",
+      "card_type": "action",
+      "title": "替换耗材",
+      "folder": "actions",
+      "front_path": "card/final/v2/actions/A24_front.png",
+      "back_path": "card/final/v2/actions/A24_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "R01",
+      "card_type": "role",
+      "title": "新入组本科生",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R01_front.png",
+      "back_path": "card/final/v2/roles/R01_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "R02",
+      "card_type": "role",
+      "title": "实验操作者",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R02_front.png",
+      "back_path": "card/final/v2/roles/R02_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "R03",
+      "card_type": "role",
+      "title": "安全培训员",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R03_front.png",
+      "back_path": "card/final/v2/roles/R03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "R04",
+      "card_type": "role",
+      "title": "仪器管理员",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R04_front.png",
+      "back_path": "card/final/v2/roles/R04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "R05",
+      "card_type": "role",
+      "title": "记录负责人",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R05_front.png",
+      "back_path": "card/final/v2/roles/R05_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "R06",
+      "card_type": "role",
+      "title": "应急响应员",
+      "folder": "roles",
+      "front_path": "card/final/v2/roles/R06_front.png",
+      "back_path": "card/final/v2/roles/R06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "P01",
+      "card_type": "post",
+      "title": "安全员",
+      "folder": "posts",
+      "front_path": "card/final/v2/posts/P01_front.png",
+      "back_path": "card/final/v2/posts/P01_back.png",
+      "uses_sample_illustration": true
+    },
+    {
+      "card_id": "P02",
+      "card_type": "post",
+      "title": "操作者",
+      "folder": "posts",
+      "front_path": "card/final/v2/posts/P02_front.png",
+      "back_path": "card/final/v2/posts/P02_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "P03",
+      "card_type": "post",
+      "title": "记录员",
+      "folder": "posts",
+      "front_path": "card/final/v2/posts/P03_front.png",
+      "back_path": "card/final/v2/posts/P03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "P04",
+      "card_type": "post",
+      "title": "资源管理员",
+      "folder": "posts",
+      "front_path": "card/final/v2/posts/P04_front.png",
+      "back_path": "card/final/v2/posts/P04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S01",
+      "card_type": "strategy",
+      "title": "稳健管理",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S01_front.png",
+      "back_path": "card/final/v2/strategies/S01_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S02",
+      "card_type": "strategy",
+      "title": "效率优先",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S02_front.png",
+      "back_path": "card/final/v2/strategies/S02_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S03",
+      "card_type": "strategy",
+      "title": "规范先行",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S03_front.png",
+      "back_path": "card/final/v2/strategies/S03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S04",
+      "card_type": "strategy",
+      "title": "风险隔离",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S04_front.png",
+      "back_path": "card/final/v2/strategies/S04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S05",
+      "card_type": "strategy",
+      "title": "岗位训练",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S05_front.png",
+      "back_path": "card/final/v2/strategies/S05_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S06",
+      "card_type": "strategy",
+      "title": "设备优先",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S06_front.png",
+      "back_path": "card/final/v2/strategies/S06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S07",
+      "card_type": "strategy",
+      "title": "复盘驱动",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S07_front.png",
+      "back_path": "card/final/v2/strategies/S07_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "S08",
+      "card_type": "strategy",
+      "title": "应急演练",
+      "folder": "strategies",
+      "front_path": "card/final/v2/strategies/S08_front.png",
+      "back_path": "card/final/v2/strategies/S08_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D01",
+      "card_type": "debrief",
+      "title": "PPE 基础防护",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D01_front.png",
+      "back_path": "card/final/v2/debriefs/D01_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D02",
+      "card_type": "debrief",
+      "title": "标签与身份确认",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D02_front.png",
+      "back_path": "card/final/v2/debriefs/D02_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D03",
+      "card_type": "debrief",
+      "title": "废液可追溯",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D03_front.png",
+      "back_path": "card/final/v2/debriefs/D03_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D04",
+      "card_type": "debrief",
+      "title": "污染扩散控制",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D04_front.png",
+      "back_path": "card/final/v2/debriefs/D04_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D05",
+      "card_type": "debrief",
+      "title": "挥发性溶剂通风",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D05_front.png",
+      "back_path": "card/final/v2/debriefs/D05_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D06",
+      "card_type": "debrief",
+      "title": "火源管理",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D06_front.png",
+      "back_path": "card/final/v2/debriefs/D06_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D07",
+      "card_type": "debrief",
+      "title": "腐蚀性液体操作",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D07_front.png",
+      "back_path": "card/final/v2/debriefs/D07_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D08",
+      "card_type": "debrief",
+      "title": "玻璃器皿状态",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D08_front.png",
+      "back_path": "card/final/v2/debriefs/D08_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D09",
+      "card_type": "debrief",
+      "title": "气瓶固定",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D09_front.png",
+      "back_path": "card/final/v2/debriefs/D09_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D10",
+      "card_type": "debrief",
+      "title": "通风橱门高度",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D10_front.png",
+      "back_path": "card/final/v2/debriefs/D10_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D11",
+      "card_type": "debrief",
+      "title": "不相容物质",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D11_front.png",
+      "back_path": "card/final/v2/debriefs/D11_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D12",
+      "card_type": "debrief",
+      "title": "无人值守",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D12_front.png",
+      "back_path": "card/final/v2/debriefs/D12_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D13",
+      "card_type": "debrief",
+      "title": "人员暴露优先",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D13_front.png",
+      "back_path": "card/final/v2/debriefs/D13_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D14",
+      "card_type": "debrief",
+      "title": "未知气味",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D14_front.png",
+      "back_path": "card/final/v2/debriefs/D14_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D15",
+      "card_type": "debrief",
+      "title": "小型火情",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D15_front.png",
+      "back_path": "card/final/v2/debriefs/D15_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D16",
+      "card_type": "debrief",
+      "title": "锐器与通道",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D16_front.png",
+      "back_path": "card/final/v2/debriefs/D16_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D17",
+      "card_type": "debrief",
+      "title": "能量输入控制",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D17_front.png",
+      "back_path": "card/final/v2/debriefs/D17_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D18",
+      "card_type": "debrief",
+      "title": "设备收尾",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D18_front.png",
+      "back_path": "card/final/v2/debriefs/D18_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D19",
+      "card_type": "debrief",
+      "title": "容器密封",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D19_front.png",
+      "back_path": "card/final/v2/debriefs/D19_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D20",
+      "card_type": "debrief",
+      "title": "离心配平",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D20_front.png",
+      "back_path": "card/final/v2/debriefs/D20_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D21",
+      "card_type": "debrief",
+      "title": "旋蒸夹具",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D21_front.png",
+      "back_path": "card/final/v2/debriefs/D21_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D22",
+      "card_type": "debrief",
+      "title": "废液容量",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D22_front.png",
+      "back_path": "card/final/v2/debriefs/D22_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D23",
+      "card_type": "debrief",
+      "title": "未知粉末",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D23_front.png",
+      "back_path": "card/final/v2/debriefs/D23_back.png",
+      "uses_sample_illustration": false
+    },
+    {
+      "card_id": "D24",
+      "card_type": "debrief",
+      "title": "复盘闭环",
+      "folder": "debriefs",
+      "front_path": "card/final/v2/debriefs/D24_front.png",
+      "back_path": "card/final/v2/debriefs/D24_back.png",
+      "uses_sample_illustration": false
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "scenario_stats": [
+    {
+      "mode": "challenge",
+      "strategy_id": "S01",
+      "games": 1000,
+      "win_rate": 0.331,
+      "avg_progress": 4.306,
+      "avg_safety": 3.117,
+      "avg_accident": 2.377,
+      "avg_hazards": 2.236,
+      "avg_knowledge_count": 6.869,
+      "avg_contribution": 3.46225,
+      "loss_reasons": {
+        "progress_shortfall": 184,
+        "accident_limit": 171,
+        "safety_zero": 240,
+        "win": 331,
+        "hazard_overflow": 74
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S02",
+      "games": 1000,
+      "win_rate": 0.369,
+      "avg_progress": 4.752,
+      "avg_safety": 1.648,
+      "avg_accident": 2.19,
+      "avg_hazards": 2.189,
+      "avg_knowledge_count": 6.656,
+      "avg_contribution": 3.44625,
+      "loss_reasons": {
+        "progress_shortfall": 67,
+        "safety_zero": 435,
+        "win": 369,
+        "accident_limit": 58,
+        "hazard_overflow": 71
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S03",
+      "games": 1000,
+      "win_rate": 0.315,
+      "avg_progress": 4.228,
+      "avg_safety": 1.401,
+      "avg_accident": 2.228,
+      "avg_hazards": 1.732,
+      "avg_knowledge_count": 6.821,
+      "avg_contribution": 3.3945,
+      "loss_reasons": {
+        "safety_zero": 464,
+        "hazard_overflow": 37,
+        "win": 315,
+        "accident_limit": 66,
+        "progress_shortfall": 118
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S04",
+      "games": 1000,
+      "win_rate": 0.307,
+      "avg_progress": 4.144,
+      "avg_safety": 1.52,
+      "avg_accident": 2.286,
+      "avg_hazards": 1.803,
+      "avg_knowledge_count": 6.634,
+      "avg_contribution": 3.3345,
+      "loss_reasons": {
+        "accident_limit": 76,
+        "safety_zero": 458,
+        "win": 307,
+        "hazard_overflow": 42,
+        "progress_shortfall": 117
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S05",
+      "games": 1000,
+      "win_rate": 0.32,
+      "avg_progress": 4.116,
+      "avg_safety": 1.602,
+      "avg_accident": 2.214,
+      "avg_hazards": 2.295,
+      "avg_knowledge_count": 6.618,
+      "avg_contribution": 3.73975,
+      "loss_reasons": {
+        "safety_zero": 463,
+        "win": 320,
+        "accident_limit": 57,
+        "hazard_overflow": 70,
+        "progress_shortfall": 90
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S06",
+      "games": 1000,
+      "win_rate": 0.32,
+      "avg_progress": 4.287,
+      "avg_safety": 1.606,
+      "avg_accident": 2.218,
+      "avg_hazards": 2.163,
+      "avg_knowledge_count": 6.715,
+      "avg_contribution": 3.4215,
+      "loss_reasons": {
+        "win": 320,
+        "safety_zero": 458,
+        "hazard_overflow": 66,
+        "progress_shortfall": 86,
+        "accident_limit": 70
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S07",
+      "games": 1000,
+      "win_rate": 0.31,
+      "avg_progress": 4.2,
+      "avg_safety": 1.557,
+      "avg_accident": 2.219,
+      "avg_hazards": 2.236,
+      "avg_knowledge_count": 6.699,
+      "avg_contribution": 3.693,
+      "loss_reasons": {
+        "safety_zero": 446,
+        "win": 310,
+        "progress_shortfall": 107,
+        "hazard_overflow": 66,
+        "accident_limit": 71
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "S08",
+      "games": 1000,
+      "win_rate": 0.308,
+      "avg_progress": 4.176,
+      "avg_safety": 1.382,
+      "avg_accident": 1.719,
+      "avg_hazards": 2.18,
+      "avg_knowledge_count": 6.619,
+      "avg_contribution": 3.35975,
+      "loss_reasons": {
+        "accident_limit": 22,
+        "safety_zero": 500,
+        "win": 308,
+        "progress_shortfall": 112,
+        "hazard_overflow": 58
+      }
+    },
+    {
+      "mode": "challenge",
+      "strategy_id": "none",
+      "games": 1000,
+      "win_rate": 0.33,
+      "avg_progress": 4.324,
+      "avg_safety": 1.569,
+      "avg_accident": 2.171,
+      "avg_hazards": 2.105,
+      "avg_knowledge_count": 6.782,
+      "avg_contribution": 3.5295,
+      "loss_reasons": {
+        "progress_shortfall": 129,
+        "win": 330,
+        "safety_zero": 442,
+        "hazard_overflow": 44,
+        "accident_limit": 55
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S01",
+      "games": 1000,
+      "win_rate": 0.639,
+      "avg_progress": 4.921,
+      "avg_safety": 4.871,
+      "avg_accident": 1.495,
+      "avg_hazards": 1.276,
+      "avg_knowledge_count": 6.658,
+      "avg_contribution": 4.05175,
+      "loss_reasons": {
+        "win": 639,
+        "progress_shortfall": 134,
+        "safety_zero": 147,
+        "accident_limit": 66,
+        "hazard_overflow": 14
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S02",
+      "games": 1000,
+      "win_rate": 0.603,
+      "avg_progress": 5.23,
+      "avg_safety": 2.808,
+      "avg_accident": 1.512,
+      "avg_hazards": 1.293,
+      "avg_knowledge_count": 6.507,
+      "avg_contribution": 3.86625,
+      "loss_reasons": {
+        "safety_zero": 315,
+        "win": 603,
+        "accident_limit": 28,
+        "progress_shortfall": 49,
+        "hazard_overflow": 5
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S03",
+      "games": 1000,
+      "win_rate": 0.568,
+      "avg_progress": 4.689,
+      "avg_safety": 2.787,
+      "avg_accident": 1.548,
+      "avg_hazards": 1.081,
+      "avg_knowledge_count": 6.418,
+      "avg_contribution": 3.841,
+      "loss_reasons": {
+        "win": 568,
+        "safety_zero": 335,
+        "progress_shortfall": 68,
+        "hazard_overflow": 9,
+        "accident_limit": 20
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S04",
+      "games": 1000,
+      "win_rate": 0.602,
+      "avg_progress": 4.829,
+      "avg_safety": 2.965,
+      "avg_accident": 1.467,
+      "avg_hazards": 1.02,
+      "avg_knowledge_count": 6.522,
+      "avg_contribution": 3.96825,
+      "loss_reasons": {
+        "win": 602,
+        "safety_zero": 294,
+        "progress_shortfall": 69,
+        "accident_limit": 30,
+        "hazard_overflow": 5
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S05",
+      "games": 1000,
+      "win_rate": 0.589,
+      "avg_progress": 4.775,
+      "avg_safety": 2.874,
+      "avg_accident": 1.548,
+      "avg_hazards": 1.337,
+      "avg_knowledge_count": 6.519,
+      "avg_contribution": 4.31875,
+      "loss_reasons": {
+        "safety_zero": 314,
+        "win": 589,
+        "progress_shortfall": 61,
+        "accident_limit": 28,
+        "hazard_overflow": 8
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S06",
+      "games": 1000,
+      "win_rate": 0.595,
+      "avg_progress": 4.762,
+      "avg_safety": 2.942,
+      "avg_accident": 1.444,
+      "avg_hazards": 1.266,
+      "avg_knowledge_count": 6.517,
+      "avg_contribution": 3.89925,
+      "loss_reasons": {
+        "win": 595,
+        "safety_zero": 291,
+        "progress_shortfall": 78,
+        "accident_limit": 27,
+        "hazard_overflow": 9
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S07",
+      "games": 1000,
+      "win_rate": 0.6,
+      "avg_progress": 4.849,
+      "avg_safety": 2.956,
+      "avg_accident": 1.445,
+      "avg_hazards": 1.237,
+      "avg_knowledge_count": 6.561,
+      "avg_contribution": 4.32525,
+      "loss_reasons": {
+        "win": 600,
+        "safety_zero": 289,
+        "progress_shortfall": 76,
+        "accident_limit": 25,
+        "hazard_overflow": 10
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "S08",
+      "games": 1000,
+      "win_rate": 0.582,
+      "avg_progress": 4.763,
+      "avg_safety": 2.853,
+      "avg_accident": 1.07,
+      "avg_hazards": 1.329,
+      "avg_knowledge_count": 6.516,
+      "avg_contribution": 3.905,
+      "loss_reasons": {
+        "safety_zero": 321,
+        "win": 582,
+        "progress_shortfall": 87,
+        "hazard_overflow": 7,
+        "accident_limit": 3
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "none",
+      "games": 1000,
+      "win_rate": 0.587,
+      "avg_progress": 4.774,
+      "avg_safety": 2.941,
+      "avg_accident": 1.462,
+      "avg_hazards": 1.354,
+      "avg_knowledge_count": 6.545,
+      "avg_contribution": 3.9275,
+      "loss_reasons": {
+        "win": 587,
+        "safety_zero": 311,
+        "hazard_overflow": 11,
+        "progress_shortfall": 70,
+        "accident_limit": 21
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S01",
+      "games": 1000,
+      "win_rate": 0.817,
+      "avg_progress": 5.683,
+      "avg_safety": 8.9,
+      "avg_accident": 0.26,
+      "avg_hazards": 0.63,
+      "avg_knowledge_count": 6.927,
+      "avg_contribution": 4.755,
+      "loss_reasons": {
+        "win": 817,
+        "hazard_overflow": 11,
+        "safety_zero": 21,
+        "progress_shortfall": 146,
+        "accident_limit": 5
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S02",
+      "games": 1000,
+      "win_rate": 0.874,
+      "avg_progress": 6.324,
+      "avg_safety": 7.294,
+      "avg_accident": 0.251,
+      "avg_hazards": 0.58,
+      "avg_knowledge_count": 6.943,
+      "avg_contribution": 4.81225,
+      "loss_reasons": {
+        "win": 874,
+        "accident_limit": 4,
+        "hazard_overflow": 9,
+        "progress_shortfall": 67,
+        "safety_zero": 46
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S03",
+      "games": 1000,
+      "win_rate": 0.853,
+      "avg_progress": 5.819,
+      "avg_safety": 7.363,
+      "avg_accident": 0.205,
+      "avg_hazards": 0.414,
+      "avg_knowledge_count": 6.952,
+      "avg_contribution": 4.8675,
+      "loss_reasons": {
+        "win": 853,
+        "safety_zero": 45,
+        "progress_shortfall": 95,
+        "accident_limit": 2,
+        "hazard_overflow": 5
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S04",
+      "games": 1000,
+      "win_rate": 0.841,
+      "avg_progress": 5.75,
+      "avg_safety": 7.271,
+      "avg_accident": 0.225,
+      "avg_hazards": 0.455,
+      "avg_knowledge_count": 6.944,
+      "avg_contribution": 4.815,
+      "loss_reasons": {
+        "win": 841,
+        "safety_zero": 50,
+        "progress_shortfall": 106,
+        "accident_limit": 2,
+        "hazard_overflow": 1
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S05",
+      "games": 1000,
+      "win_rate": 0.856,
+      "avg_progress": 5.812,
+      "avg_safety": 7.249,
+      "avg_accident": 0.213,
+      "avg_hazards": 0.57,
+      "avg_knowledge_count": 6.969,
+      "avg_contribution": 5.249,
+      "loss_reasons": {
+        "progress_shortfall": 96,
+        "win": 856,
+        "safety_zero": 43,
+        "hazard_overflow": 5
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S06",
+      "games": 1000,
+      "win_rate": 0.832,
+      "avg_progress": 5.758,
+      "avg_safety": 7.374,
+      "avg_accident": 0.222,
+      "avg_hazards": 0.662,
+      "avg_knowledge_count": 6.897,
+      "avg_contribution": 4.84525,
+      "loss_reasons": {
+        "win": 832,
+        "progress_shortfall": 101,
+        "safety_zero": 56,
+        "hazard_overflow": 11
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S07",
+      "games": 1000,
+      "win_rate": 0.84,
+      "avg_progress": 5.775,
+      "avg_safety": 7.29,
+      "avg_accident": 0.228,
+      "avg_hazards": 0.625,
+      "avg_knowledge_count": 6.985,
+      "avg_contribution": 5.24175,
+      "loss_reasons": {
+        "win": 840,
+        "safety_zero": 53,
+        "progress_shortfall": 99,
+        "hazard_overflow": 7,
+        "accident_limit": 1
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "S08",
+      "games": 1000,
+      "win_rate": 0.828,
+      "avg_progress": 5.743,
+      "avg_safety": 7.186,
+      "avg_accident": 0.14,
+      "avg_hazards": 0.619,
+      "avg_knowledge_count": 6.946,
+      "avg_contribution": 4.81075,
+      "loss_reasons": {
+        "safety_zero": 43,
+        "win": 828,
+        "progress_shortfall": 121,
+        "hazard_overflow": 8
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "none",
+      "games": 1000,
+      "win_rate": 0.826,
+      "avg_progress": 5.719,
+      "avg_safety": 7.168,
+      "avg_accident": 0.195,
+      "avg_hazards": 0.652,
+      "avg_knowledge_count": 6.961,
+      "avg_contribution": 4.77775,
+      "loss_reasons": {
+        "hazard_overflow": 15,
+        "win": 826,
+        "safety_zero": 48,
+        "progress_shortfall": 107,
+        "accident_limit": 4
+      }
+    }
+  ],
+  "action_pick_rates": {
+    "A09": 0.061892042487375475,
+    "A17": 0.057249514633457683,
+    "A03": 0.05354648649594091,
+    "A22": 0.05353649181810686,
+    "A05": 0.04953362334556848,
+    "A24": 0.04901140142873919,
+    "A11": 0.04855914225674828,
+    "A10": 0.048106883084757364,
+    "A02": 0.04506350368428812,
+    "A19": 0.04501353029511785,
+    "A08": 0.04469869794334517,
+    "A06": 0.043739208871276046,
+    "A23": 0.041832724074430366,
+    "A20": 0.04131300082705959,
+    "A07": 0.0395914175701439,
+    "A01": 0.03943650006371607,
+    "A12": 0.03865691519265991,
+    "A16": 0.03855446974486086,
+    "A13": 0.03818966400391791,
+    "A18": 0.03741007913286175,
+    "A04": 0.03438169174914358,
+    "A15": 0.018612588796465882,
+    "A14": 0.017553152946056225,
+    "A21": 0.014517269553962516
+  },
+  "result_distribution": {
+    "complete": 130404,
+    "maintain": 48237,
+    "wrong": 27887,
+    "control": 620
+  },
+  "post_distribution": {
+    "resource_manager": 49577,
+    "recorder": 67154,
+    "safety_officer": 60239,
+    "operator": 30178
+  },
+  "run_id": "run_005_all_modes_tunecheck",
+  "seed": 20260428,
+  "games_per_scenario": 1000,
+  "players": 4,
+  "modes": [
+    "teaching",
+    "standard",
+    "challenge"
+  ],
+  "include_strategies": true
+}

@@ -1,0 +1,2 @@
+﻿mode,strategy_id,strategy_name,player_count,win,loss_reason,turns,progress,safety,accident,hazards,redraws_used,completed_tasks,knowledge_count,avg_contribution,max_contribution,min_contribution
+standard,none,无策略,4,1,win,8,6,2,2,2,2,5,7,4.5,7,2

@@ -1,0 +1,56 @@
+{
+  "scenario_stats": [
+    {
+      "mode": "standard",
+      "strategy_id": "none",
+      "games": 1,
+      "win_rate": 1,
+      "avg_progress": 6,
+      "avg_safety": 2,
+      "avg_accident": 2,
+      "avg_hazards": 2,
+      "avg_knowledge_count": 7,
+      "avg_contribution": 4.5,
+      "loss_reasons": {
+        "win": 1
+      }
+    }
+  ],
+  "action_pick_rates": {
+    "A05": 0.0625,
+    "A11": 0.0625,
+    "A17": 0.0625,
+    "A09": 0.0625,
+    "A03": 0.0625,
+    "A10": 0.0625,
+    "A24": 0.0625,
+    "A16": 0.0625,
+    "A07": 0.0625,
+    "A08": 0.0625,
+    "A19": 0.0625,
+    "A22": 0.0625,
+    "A06": 0.0625,
+    "A01": 0.0625,
+    "A23": 0.0625,
+    "A12": 0.0625
+  },
+  "result_distribution": {
+    "complete": 5,
+    "maintain": 2,
+    "wrong": 1
+  },
+  "post_distribution": {
+    "resource_manager": 3,
+    "recorder": 2,
+    "operator": 1,
+    "safety_officer": 2
+  },
+  "run_id": "run_011_demo_standard_selected",
+  "seed": 20260430,
+  "games_per_scenario": 1,
+  "players": 4,
+  "modes": [
+    "standard"
+  ],
+  "include_strategies": false
+}

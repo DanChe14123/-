@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>v2 卡牌预览</title>
+<style>
+body{font-family:Microsoft YaHei,Arial,sans-serif;background:#f3f6fa;margin:24px;color:#172033}
+.toolbar{position:sticky;top:0;background:#f3f6fa;padding:10px 0;z-index:2}
+button{margin:4px;padding:8px 14px;border:1px solid #ccd5df;border-radius:999px;background:#fff;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:20px}
+.card{background:#fff;border-radius:14px;padding:12px;box-shadow:0 6px 18px rgba(20,30,45,.12)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+img{width:100%;border-radius:10px;border:1px solid #d9e1ea}
+.meta{font-weight:700;margin-bottom:8px}
+</style>
+<script>
+function filterType(t){document.querySelectorAll('.card').forEach(c=>{c.style.display=(t==='all'||c.dataset.type===t)?'block':'none'})}
+</script>
+</head><body>
+<h1>《实验室安全值班》v2 卡牌预览</h1>
+<div class="toolbar"><button onclick="filterType('all')">全部</button>
+<button onclick="filterType('event')">事件</button>
+<button onclick="filterType('task')">任务</button>
+<button onclick="filterType('action')">行动</button>
+<button onclick="filterType('role')">角色</button>
+<button onclick="filterType('post')">岗位</button>
+<button onclick="filterType('strategy')">策略</button>
+<button onclick="filterType('debrief')">复盘</button>
+</div><div class="grid">
+<div class="card" data-type="event"><div class="meta">E01 未佩戴护目镜开始操作</div><div class="pair"><img src="../events/E01_front.png"><img src="../events/E01_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E02 试剂瓶标签模糊</div><div class="pair"><img src="../events/E02_front.png"><img src="../events/E02_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E03 废液桶标签缺失</div><div class="pair"><img src="../events/E03_front.png"><img src="../events/E03_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E04 手套污染后继续接触门把手</div><div class="pair"><img src="../events/E04_front.png"><img src="../events/E04_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E05 开放环境转移挥发性溶剂</div><div class="pair"><img src="../events/E05_front.png"><img src="../events/E05_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E06 易燃溶剂靠近热源</div><div class="pair"><img src="../events/E06_front.png"><img src="../events/E06_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E07 酸液转移出现飞溅</div><div class="pair"><img src="../events/E07_front.png"><img src="../events/E07_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E08 玻璃器皿出现裂纹</div><div class="pair"><img src="../events/E08_front.png"><img src="../events/E08_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E09 气瓶未固定</div><div class="pair"><img src="../events/E09_front.png"><img src="../events/E09_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E10 通风橱门开度过高</div><div class="pair"><img src="../events/E10_front.png"><img src="../events/E10_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E11 废液混放风险</div><div class="pair"><img src="../events/E11_front.png"><img src="../events/E11_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E12 实验无人值守</div><div class="pair"><img src="../events/E12_front.png"><img src="../events/E12_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E13 皮肤接触腐蚀性液体</div><div class="pair"><img src="../events/E13_front.png"><img src="../events/E13_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E14 闻嗅未知气味</div><div class="pair"><img src="../events/E14_front.png"><img src="../events/E14_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E15 实验台出现小型明火</div><div class="pair"><img src="../events/E15_front.png"><img src="../events/E15_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E16 锐器混入普通垃圾</div><div class="pair"><img src="../events/E16_front.png"><img src="../events/E16_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E17 加热装置温度异常升高</div><div class="pair"><img src="../events/E17_front.png"><img src="../events/E17_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E18 设备未断电且记录缺失</div><div class="pair"><img src="../events/E18_front.png"><img src="../events/E18_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E19 样品瓶盖未拧紧</div><div class="pair"><img src="../events/E19_front.png"><img src="../events/E19_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E20 离心样品配平异常</div><div class="pair"><img src="../events/E20_front.png"><img src="../events/E20_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E21 旋蒸夹具松动</div><div class="pair"><img src="../events/E21_front.png"><img src="../events/E21_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E22 废液桶接近满载</div><div class="pair"><img src="../events/E22_front.png"><img src="../events/E22_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E23 未知粉末散落并引发不适</div><div class="pair"><img src="../events/E23_front.png"><img src="../events/E23_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E24 临时容器无二次标签</div><div class="pair"><img src="../events/E24_front.png"><img src="../events/E24_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E25 冷凝水管连接松动</div><div class="pair"><img src="../events/E25_front.png"><img src="../events/E25_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E26 样品记录与瓶身不一致</div><div class="pair"><img src="../events/E26_front.png"><img src="../events/E26_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E27 PPE 尺寸不合适</div><div class="pair"><img src="../events/E27_front.png"><img src="../events/E27_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E28 吸液管污染交叉使用</div><div class="pair"><img src="../events/E28_front.png"><img src="../events/E28_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E29 反应瓶压力异常</div><div class="pair"><img src="../events/E29_front.png"><img src="../events/E29_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E30 强氧化剂靠近有机物</div><div class="pair"><img src="../events/E30_front.png"><img src="../events/E30_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E31 实验室通道被纸箱占用</div><div class="pair"><img src="../events/E31_front.png"><img src="../events/E31_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E32 洗眼器前堆放杂物</div><div class="pair"><img src="../events/E32_front.png"><img src="../events/E32_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E33 试剂架放置过高过满</div><div class="pair"><img src="../events/E33_front.png"><img src="../events/E33_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E34 低温样品结霜难以辨认</div><div class="pair"><img src="../events/E34_front.png"><img src="../events/E34_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E35 学生独自处理高危事件</div><div class="pair"><img src="../events/E35_front.png"><img src="../events/E35_back.png"></div></div>
+<div class="card" data-type="event"><div class="meta">E36 复盘记录遗漏改进措施</div><div class="pair"><img src="../events/E36_front.png"><img src="../events/E36_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T01 危险化学品领取与登记</div><div class="pair"><img src="../tasks/T01_front.png"><img src="../tasks/T01_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T02 通风橱准备与气流确认</div><div class="pair"><img src="../tasks/T02_front.png"><img src="../tasks/T02_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T03 加热回流装置搭建</div><div class="pair"><img src="../tasks/T03_front.png"><img src="../tasks/T03_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T04 有机溶剂转移</div><div class="pair"><img src="../tasks/T04_front.png"><img src="../tasks/T04_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T05 酸碱溶液配制</div><div class="pair"><img src="../tasks/T05_front.png"><img src="../tasks/T05_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T06 气瓶连接与检漏</div><div class="pair"><img src="../tasks/T06_front.png"><img src="../tasks/T06_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T07 反应过程记录</div><div class="pair"><img src="../tasks/T07_front.png"><img src="../tasks/T07_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T08 废液分类收集</div><div class="pair"><img src="../tasks/T08_front.png"><img src="../tasks/T08_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T09 玻璃器皿检查</div><div class="pair"><img src="../tasks/T09_front.png"><img src="../tasks/T09_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T10 离心样品配平</div><div class="pair"><img src="../tasks/T10_front.png"><img src="../tasks/T10_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T11 旋蒸装置检查</div><div class="pair"><img src="../tasks/T11_front.png"><img src="../tasks/T11_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T12 实验台收尾清理</div><div class="pair"><img src="../tasks/T12_front.png"><img src="../tasks/T12_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T13 PPE 检查与更换</div><div class="pair"><img src="../tasks/T13_front.png"><img src="../tasks/T13_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T14 未知样品初步确认</div><div class="pair"><img src="../tasks/T14_front.png"><img src="../tasks/T14_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T15 小型泄漏围堵</div><div class="pair"><img src="../tasks/T15_front.png"><img src="../tasks/T15_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T16 火源风险排查</div><div class="pair"><img src="../tasks/T16_front.png"><img src="../tasks/T16_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T17 人员暴露初期处置</div><div class="pair"><img src="../tasks/T17_front.png"><img src="../tasks/T17_back.png"></div></div>
+<div class="card" data-type="task"><div class="meta">T18 异常情况复盘记录</div><div class="pair"><img src="../tasks/T18_front.png"><img src="../tasks/T18_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A01 补全 PPE</div><div class="pair"><img src="../actions/A01_front.png"><img src="../actions/A01_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A02 核对标签</div><div class="pair"><img src="../actions/A02_front.png"><img src="../actions/A02_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A03 记录台账</div><div class="pair"><img src="../actions/A03_front.png"><img src="../actions/A03_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A04 移入通风橱</div><div class="pair"><img src="../actions/A04_front.png"><img src="../actions/A04_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A05 分类回收</div><div class="pair"><img src="../actions/A05_front.png"><img src="../actions/A05_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A06 隔离现场</div><div class="pair"><img src="../actions/A06_front.png"><img src="../actions/A06_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A07 使用应急设施</div><div class="pair"><img src="../actions/A07_front.png"><img src="../actions/A07_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A08 撤离与警戒</div><div class="pair"><img src="../actions/A08_front.png"><img src="../actions/A08_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A09 上报负责人</div><div class="pair"><img src="../actions/A09_front.png"><img src="../actions/A09_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A10 切断热源电源</div><div class="pair"><img src="../actions/A10_front.png"><img src="../actions/A10_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A11 检查并更换器材</div><div class="pair"><img src="../actions/A11_front.png"><img src="../actions/A11_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A12 固定与规范连接</div><div class="pair"><img src="../actions/A12_front.png"><img src="../actions/A12_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A13 围堵泄漏</div><div class="pair"><img src="../actions/A13_front.png"><img src="../actions/A13_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A14 降温与稳定</div><div class="pair"><img src="../actions/A14_front.png"><img src="../actions/A14_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A15 中和处理</div><div class="pair"><img src="../actions/A15_front.png"><img src="../actions/A15_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A16 清洁去污</div><div class="pair"><img src="../actions/A16_front.png"><img src="../actions/A16_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A17 持续监测</div><div class="pair"><img src="../actions/A17_front.png"><img src="../actions/A17_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A18 暂停操作</div><div class="pair"><img src="../actions/A18_front.png"><img src="../actions/A18_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A19 确认相容性</div><div class="pair"><img src="../actions/A19_front.png"><img src="../actions/A19_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A20 沟通交接</div><div class="pair"><img src="../actions/A20_front.png"><img src="../actions/A20_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A21 资源调度</div><div class="pair"><img src="../actions/A21_front.png"><img src="../actions/A21_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A22 复盘原因</div><div class="pair"><img src="../actions/A22_front.png"><img src="../actions/A22_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A23 设置警戒标识</div><div class="pair"><img src="../actions/A23_front.png"><img src="../actions/A23_back.png"></div></div>
+<div class="card" data-type="action"><div class="meta">A24 替换耗材</div><div class="pair"><img src="../actions/A24_front.png"><img src="../actions/A24_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R01 新入组本科生</div><div class="pair"><img src="../roles/R01_front.png"><img src="../roles/R01_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R02 实验操作者</div><div class="pair"><img src="../roles/R02_front.png"><img src="../roles/R02_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R03 安全培训员</div><div class="pair"><img src="../roles/R03_front.png"><img src="../roles/R03_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R04 仪器管理员</div><div class="pair"><img src="../roles/R04_front.png"><img src="../roles/R04_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R05 记录负责人</div><div class="pair"><img src="../roles/R05_front.png"><img src="../roles/R05_back.png"></div></div>
+<div class="card" data-type="role"><div class="meta">R06 应急响应员</div><div class="pair"><img src="../roles/R06_front.png"><img src="../roles/R06_back.png"></div></div>
+<div class="card" data-type="post"><div class="meta">P01 安全员</div><div class="pair"><img src="../posts/P01_front.png"><img src="../posts/P01_back.png"></div></div>
+<div class="card" data-type="post"><div class="meta">P02 操作者</div><div class="pair"><img src="../posts/P02_front.png"><img src="../posts/P02_back.png"></div></div>
+<div class="card" data-type="post"><div class="meta">P03 记录员</div><div class="pair"><img src="../posts/P03_front.png"><img src="../posts/P03_back.png"></div></div>
+<div class="card" data-type="post"><div class="meta">P04 资源管理员</div><div class="pair"><img src="../posts/P04_front.png"><img src="../posts/P04_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S01 稳健管理</div><div class="pair"><img src="../strategies/S01_front.png"><img src="../strategies/S01_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S02 效率优先</div><div class="pair"><img src="../strategies/S02_front.png"><img src="../strategies/S02_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S03 规范先行</div><div class="pair"><img src="../strategies/S03_front.png"><img src="../strategies/S03_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S04 风险隔离</div><div class="pair"><img src="../strategies/S04_front.png"><img src="../strategies/S04_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S05 岗位训练</div><div class="pair"><img src="../strategies/S05_front.png"><img src="../strategies/S05_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S06 设备优先</div><div class="pair"><img src="../strategies/S06_front.png"><img src="../strategies/S06_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S07 复盘驱动</div><div class="pair"><img src="../strategies/S07_front.png"><img src="../strategies/S07_back.png"></div></div>
+<div class="card" data-type="strategy"><div class="meta">S08 应急演练</div><div class="pair"><img src="../strategies/S08_front.png"><img src="../strategies/S08_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D01 PPE 基础防护</div><div class="pair"><img src="../debriefs/D01_front.png"><img src="../debriefs/D01_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D02 标签与身份确认</div><div class="pair"><img src="../debriefs/D02_front.png"><img src="../debriefs/D02_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D03 废液可追溯</div><div class="pair"><img src="../debriefs/D03_front.png"><img src="../debriefs/D03_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D04 污染扩散控制</div><div class="pair"><img src="../debriefs/D04_front.png"><img src="../debriefs/D04_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D05 挥发性溶剂通风</div><div class="pair"><img src="../debriefs/D05_front.png"><img src="../debriefs/D05_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D06 火源管理</div><div class="pair"><img src="../debriefs/D06_front.png"><img src="../debriefs/D06_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D07 腐蚀性液体操作</div><div class="pair"><img src="../debriefs/D07_front.png"><img src="../debriefs/D07_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D08 玻璃器皿状态</div><div class="pair"><img src="../debriefs/D08_front.png"><img src="../debriefs/D08_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D09 气瓶固定</div><div class="pair"><img src="../debriefs/D09_front.png"><img src="../debriefs/D09_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D10 通风橱门高度</div><div class="pair"><img src="../debriefs/D10_front.png"><img src="../debriefs/D10_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D11 不相容物质</div><div class="pair"><img src="../debriefs/D11_front.png"><img src="../debriefs/D11_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D12 无人值守</div><div class="pair"><img src="../debriefs/D12_front.png"><img src="../debriefs/D12_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D13 人员暴露优先</div><div class="pair"><img src="../debriefs/D13_front.png"><img src="../debriefs/D13_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D14 未知气味</div><div class="pair"><img src="../debriefs/D14_front.png"><img src="../debriefs/D14_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D15 小型火情</div><div class="pair"><img src="../debriefs/D15_front.png"><img src="../debriefs/D15_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D16 锐器与通道</div><div class="pair"><img src="../debriefs/D16_front.png"><img src="../debriefs/D16_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D17 能量输入控制</div><div class="pair"><img src="../debriefs/D17_front.png"><img src="../debriefs/D17_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D18 设备收尾</div><div class="pair"><img src="../debriefs/D18_front.png"><img src="../debriefs/D18_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D19 容器密封</div><div class="pair"><img src="../debriefs/D19_front.png"><img src="../debriefs/D19_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D20 离心配平</div><div class="pair"><img src="../debriefs/D20_front.png"><img src="../debriefs/D20_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D21 旋蒸夹具</div><div class="pair"><img src="../debriefs/D21_front.png"><img src="../debriefs/D21_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D22 废液容量</div><div class="pair"><img src="../debriefs/D22_front.png"><img src="../debriefs/D22_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D23 未知粉末</div><div class="pair"><img src="../debriefs/D23_front.png"><img src="../debriefs/D23_back.png"></div></div>
+<div class="card" data-type="debrief"><div class="meta">D24 复盘闭环</div><div class="pair"><img src="../debriefs/D24_front.png"><img src="../debriefs/D24_back.png"></div></div>
+</div></body></html>

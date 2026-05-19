@@ -1,0 +1,48 @@
+{
+  "project_title": "实验室安全值班",
+  "subtitle": "事件牌样板与使用手册样板",
+  "cards": [
+    {
+      "card_id": "E02",
+      "risk": "低危",
+      "theme": "#4E83D9",
+      "title": "试剂瓶标签模糊",
+      "protagonist": "林澄",
+      "reference_image": "card/E02.png",
+      "front_art_crop": [398, 330, 1222, 1160],
+      "back_art_crop": [1560, 292, 2418, 930],
+      "front_focus_short": "无法准确识别的试剂",
+      "front_mistake_short": "凭记忆直接使用",
+      "back_action_short": "先停用，再核对标签与记录",
+      "back_reason_short": "标签不清时，身份与浓度都不可靠",
+      "back_knowledge_short": "未确认身份的试剂，不得直接投入实验",
+      "back_review_short": "你能只凭“昨天刚配过”就继续使用吗",
+      "handbook_scene": "林澄举起试剂瓶时发现标签已经模糊，无法确认内容物和浓度。此时最重要的不是继续推进步骤，而是立刻停止使用并回到记录链路核查。",
+      "handbook_action": "暂停当前步骤，核对标签、台账、配制记录与瓶身信息；确认内容、浓度和危险性信息完整后，再决定是否继续使用。",
+      "handbook_reason": "标签信息一旦不清，问题不只是“看不清名字”，而是试剂身份、浓度、有效性与危险类别都可能无法被可靠确认。继续使用会把错误带进后续步骤。",
+      "handbook_knowledge": "任何无法被准确识别的试剂，都不应直接进入实验流程。实验室安全首先依赖信息可追溯，而不是个人记忆。",
+      "handbook_review": "如果你很确定这就是昨天刚配好的那一瓶，是否仍然可以跳过核对直接继续？"
+    },
+    {
+      "card_id": "E05",
+      "risk": "中危",
+      "theme": "#F0A045",
+      "title": "开放环境转移挥发性溶剂",
+      "protagonist": "周衡",
+      "reference_image": "card/E05.png",
+      "front_art_crop": [582, 468, 1240, 1034],
+      "back_art_crop": [1588, 404, 2274, 938],
+      "front_focus_short": "地点错误，缺少局部排风",
+      "front_mistake_short": "把“动作快”当成控制手段",
+      "back_action_short": "转移进通风橱，缩短暴露时间",
+      "back_reason_short": "开放环境更易积聚蒸气并形成暴露",
+      "back_knowledge_short": "挥发风险优先靠环境控制，不靠硬扛",
+      "back_review_short": "什么情况下必须把操作移进通风橱",
+      "handbook_scene": "周衡在普通实验台上转移挥发性溶剂，虽然动作熟练，但当前环境没有局部排风控制，蒸气暴露风险仍在持续增加。",
+      "handbook_action": "立即暂停开放环境下的转移操作，将器皿和试剂移入通风橱，并尽量减少容器开启时间和暴露面积，再继续完成转移。",
+      "handbook_reason": "挥发性溶剂在开放环境中更容易形成蒸气积聚，吸入暴露与点燃风险都会提高。熟练操作不能替代环境控制。",
+      "handbook_knowledge": "面对挥发和吸入风险时，优先考虑局部排风与环境控制，再考虑个人防护和操作速度。",
+      "handbook_review": "如果这次转移量很小、时间很短，是否可以不进通风橱直接完成？"
+    }
+  ]
+}

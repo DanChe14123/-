@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+    
+    <defs>
+      <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.18"/>
+      </filter>
+      <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+      </filter>
+    </defs>
+    
+    <rect x="28" y="24" width="694" height="1002" rx="36" fill="#F8FBFF" filter="url(#cardShadow)"/>
+    <rect x="28" y="24" width="694" height="1002" rx="36" fill="none" stroke="#28334A" stroke-width="4"/>
+    <rect x="28" y="24" width="694" height="96" rx="36" fill="#4E83D9"/>
+    <rect x="28" y="84" width="694" height="36" fill="#4E83D9"/>
+    <rect x="55" y="48" width="110" height="46" rx="23.0" fill="#FFFFFF" stroke="#2D5FB3" stroke-width="2"/><text x="110.0" y="80.0" text-anchor="middle" fill="#2D5FB3" font-size="26" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">E02</text>
+    <rect x="178" y="48" width="96" height="46" rx="23.0" fill="#EEF4FF" stroke="#2D5FB3" stroke-width="2"/><text x="226.0" y="80.0" text-anchor="middle" fill="#2D5FB3" font-size="26" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">低危</text>
+    <text x="666" y="80" text-anchor="end" fill="#FFFFFF" font-size="28" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">事件牌</text>
+
+    <rect x="55" y="150" width="640" height="340" rx="30" fill="#EEF4FF" stroke="#28334A" stroke-width="4" filter="url(#softShadow)"/>
+    <g transform="translate(45,140)">
+      <circle cx="130" cy="90" r="58" fill="#DDEBFF" opacity="0.6"/><circle cx="600" cy="110" r="72" fill="#DDEBFF" opacity="0.45"/><rect x="58" y="58" width="44" height="88" rx="16" fill="#FFFFFF" opacity="0.55"/><rect x="640" y="74" width="34" height="74" rx="12" fill="#FFFFFF" opacity="0.45"/><rect x="100" y="315" width="540" height="34" rx="16" fill="#7E5B48"/><rect x="125" y="347" width="22" height="56" rx="10" fill="#9B745F"/><rect x="593" y="347" width="22" height="56" rx="10" fill="#9B745F"/><circle cx="180" cy="185" r="30" fill="#F6C7A5" stroke="#28334A" stroke-width="4"/><rect x="166" y="187" width="28" height="8" rx="4" fill="#7BC6FF" stroke="#28334A" stroke-width="2"/><rect x="148" y="225" width="64" height="88" rx="20" fill="#FFFFFF" stroke="#28334A" stroke-width="4"/><line x1="162" y1="243" x2="120" y2="295" stroke="#28334A" stroke-width="10" stroke-linecap="round"/><line x1="198" y1="243" x2="250" y2="305" stroke="#28334A" stroke-width="10" stroke-linecap="round"/><line x1="168" y1="313" x2="156" y2="385" stroke="#28334A" stroke-width="12" stroke-linecap="round"/><line x1="192" y1="313" x2="204" y2="385" stroke="#28334A" stroke-width="12" stroke-linecap="round"/><rect x="358" y="160" width="66" height="26" rx="8" fill="#455A8B" stroke="#28334A" stroke-width="4"/><rect x="338" y="180" width="106" height="154" rx="22" fill="#8AD0B8" stroke="#28334A" stroke-width="4"/><rect x="352" y="218" width="78" height="42" rx="12" fill="#FFF7D9" stroke="#28334A" stroke-width="3"/><rect x="364" y="230" width="56" height="18" rx="9" fill="#EAD9B8" opacity="0.75"/><rect x="360" y="256" width="64" height="16" rx="8" fill="#EAD9B8" opacity="0.5"/><rect x="498" y="202" width="118" height="95" rx="18" fill="#FFFDF6" stroke="#28334A" stroke-width="4"/><line x1="522" y1="226" x2="592" y2="226" stroke="#8EA0B4" stroke-width="5" stroke-linecap="round"/><line x1="522" y1="250" x2="590" y2="250" stroke="#8EA0B4" stroke-width="5" stroke-linecap="round"/><line x1="522" y1="274" x2="572" y2="274" stroke="#8EA0B4" stroke-width="5" stroke-linecap="round"/><circle cx="452" cy="242" r="20" fill="#FFD36F" stroke="#28334A" stroke-width="4"/><text x="452" y="249" text-anchor="middle" fill="#28334A" font-size="28" font-weight="700" font-family="Arial">?</text>
+    </g>
+
+    <rect x="55" y="525" width="640" height="210" rx="28" fill="#FFFFFF" stroke="#28334A" stroke-width="4"/>
+    <rect x="55" y="750" width="640" height="206" rx="28" fill="#EEF4FF" stroke="#28334A" stroke-width="4"/>
+
+    <text x="70" y="560" fill="#28334A" font-size="42" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">试剂瓶标签模糊</tspan></text>
+    <rect x="70" y="620" width="208" height="38" rx="19" fill="#DDEBFF" stroke="none"/>
+    <text x="174" y="646" text-anchor="middle" fill="#2D5FB3" font-size="22" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">观察重点</text>
+    <text x="70" y="670" fill="#344054" font-size="28" font-weight="400" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">你拿起准备使用的试剂瓶，发现标签字迹</tspan><tspan x="70" dy="34">模糊，无法快速确认内容物和浓度。</tspan></text>
+
+    <rect x="70" y="780" width="150" height="38" rx="19" fill="#4E83D9" opacity="0.18"/>
+    <text x="145" y="806" text-anchor="middle" fill="#2D5FB3" font-size="22" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">错误倾向</text>
+    <text x="70" y="880" fill="#28334A" font-size="28" font-weight="500" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">不要凭记忆和瓶身颜色直接判断。</tspan></text>
+    <text x="520" y="806" fill="#2D5FB3" font-size="24" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="520" dy="0">无法被准确识别的试剂</tspan></text>
+    <circle cx="640" cy="796" r="22" fill="#4E83D9"/>
+    <text x="640" y="804" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="Arial">!</text>
+    </svg>

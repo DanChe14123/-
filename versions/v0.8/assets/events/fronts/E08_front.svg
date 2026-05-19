@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050">
+    
+    <defs>
+      <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.18"/>
+      </filter>
+      <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+      </filter>
+    </defs>
+    
+    <rect x="28" y="24" width="694" height="1002" rx="36" fill="#FFF9F2" filter="url(#cardShadow)"/>
+    <rect x="28" y="24" width="694" height="1002" rx="36" fill="none" stroke="#28334A" stroke-width="4"/>
+    <rect x="28" y="24" width="694" height="96" rx="36" fill="#F0A045"/>
+    <rect x="28" y="84" width="694" height="36" fill="#F0A045"/>
+    <rect x="55" y="48" width="110" height="46" rx="23.0" fill="#FFFFFF" stroke="#C8741E" stroke-width="2"/><text x="110.0" y="80.0" text-anchor="middle" fill="#C8741E" font-size="26" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">E08</text>
+    <rect x="178" y="48" width="96" height="46" rx="23.0" fill="#FFF4E7" stroke="#C8741E" stroke-width="2"/><text x="226.0" y="80.0" text-anchor="middle" fill="#C8741E" font-size="26" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">中危</text>
+    <text x="666" y="80" text-anchor="end" fill="#FFFFFF" font-size="28" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">事件牌</text>
+
+    <rect x="55" y="150" width="640" height="340" rx="30" fill="#FFF4E7" stroke="#28334A" stroke-width="4" filter="url(#softShadow)"/>
+    <g transform="translate(45,140)">
+      <circle cx="130" cy="90" r="58" fill="#FFE2BF" opacity="0.6"/><circle cx="600" cy="110" r="72" fill="#FFE2BF" opacity="0.45"/><rect x="58" y="58" width="44" height="88" rx="16" fill="#FFFFFF" opacity="0.55"/><rect x="640" y="74" width="34" height="74" rx="12" fill="#FFFFFF" opacity="0.45"/><rect x="100" y="315" width="540" height="34" rx="16" fill="#7E5B48"/><rect x="125" y="347" width="22" height="56" rx="10" fill="#9B745F"/><rect x="593" y="347" width="22" height="56" rx="10" fill="#9B745F"/><path d="M350 125 L398 125 L410 182 L452 275 Q468 310 444 330 Q424 348 374 348 Q324 348 304 330 Q280 310 296 275 L338 182 Z" fill="#CDE8FF" stroke="#28334A" stroke-width="5"/><path d="M372 172 L390 216 L364 240 L392 274 L358 314" fill="none" stroke="#D85A57" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="520" cy="190" r="30" fill="#FFFFFF" stroke="#28334A" stroke-width="4"/><line x1="505" y1="176" x2="535" y2="206" stroke="#28334A" stroke-width="6" stroke-linecap="round"/><line x1="535" y1="176" x2="505" y2="206" stroke="#28334A" stroke-width="6" stroke-linecap="round"/><path d="M160 226 Q186 188 232 196 Q284 208 276 258 Q270 298 230 310 Q190 320 162 292 Q144 272 146 248 Q148 236 160 226 Z" fill="#FFFFFF" stroke="#28334A" stroke-width="4"/><text x="212" y="262" text-anchor="middle" fill="#D85A57" font-size="44" font-weight="800" font-family="Arial">!</text>
+    </g>
+
+    <rect x="55" y="525" width="640" height="210" rx="28" fill="#FFFFFF" stroke="#28334A" stroke-width="4"/>
+    <rect x="55" y="750" width="640" height="206" rx="28" fill="#FFF4E7" stroke="#28334A" stroke-width="4"/>
+
+    <text x="70" y="560" fill="#28334A" font-size="42" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">玻璃器皿出现裂纹</tspan></text>
+    <rect x="70" y="620" width="208" height="38" rx="19" fill="#FFE2BF" stroke="none"/>
+    <text x="174" y="646" text-anchor="middle" fill="#C8741E" font-size="22" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">观察重点</text>
+    <text x="70" y="670" fill="#344054" font-size="28" font-weight="400" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">装液玻璃器皿上出现细裂纹，但当前步骤</tspan><tspan x="70" dy="34">还没有结束。</tspan></text>
+
+    <rect x="70" y="780" width="150" height="38" rx="19" fill="#F0A045" opacity="0.18"/>
+    <text x="145" y="806" text-anchor="middle" fill="#C8741E" font-size="22" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif">错误倾向</text>
+    <text x="70" y="880" fill="#28334A" font-size="28" font-weight="500" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="70" dy="0">不要抱着“先把这一步做完再换”的想法</tspan><tspan x="70" dy="34">继续。</tspan></text>
+    <text x="520" y="806" fill="#C8741E" font-size="24" font-weight="700" font-family="Microsoft YaHei, SimHei, sans-serif"><tspan x="520" dy="0">裂纹器皿仍在待用</tspan></text>
+    <circle cx="640" cy="796" r="22" fill="#F0A045"/>
+    <text x="640" y="804" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="800" font-family="Arial">!</text>
+    </svg>

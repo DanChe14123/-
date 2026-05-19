@@ -1,0 +1,104 @@
+{
+  "scenario_stats": [
+    {
+      "mode": "challenge",
+      "strategy_id": "none",
+      "games": 100,
+      "win_rate": 0,
+      "avg_progress": 2.02,
+      "avg_safety": 1.07,
+      "avg_accident": 2.28,
+      "avg_hazards": 3.29,
+      "avg_knowledge_count": 5.93,
+      "avg_contribution": 1.18,
+      "loss_reasons": {
+        "accident_limit": 5,
+        "safety_zero": 52,
+        "progress_shortfall": 26,
+        "hazard_overflow": 17
+      }
+    },
+    {
+      "mode": "standard",
+      "strategy_id": "none",
+      "games": 100,
+      "win_rate": 0,
+      "avg_progress": 3.09,
+      "avg_safety": 3.82,
+      "avg_accident": 1.07,
+      "avg_hazards": 1.75,
+      "avg_knowledge_count": 6.73,
+      "avg_contribution": 2.025,
+      "loss_reasons": {
+        "progress_shortfall": 72,
+        "safety_zero": 21,
+        "hazard_overflow": 6,
+        "accident_limit": 1
+      }
+    },
+    {
+      "mode": "teaching",
+      "strategy_id": "none",
+      "games": 100,
+      "win_rate": 0.01,
+      "avg_progress": 3.63,
+      "avg_safety": 5.86,
+      "avg_accident": 0.23,
+      "avg_hazards": 1.38,
+      "avg_knowledge_count": 6.93,
+      "avg_contribution": 2.23,
+      "loss_reasons": {
+        "progress_shortfall": 89,
+        "win": 1,
+        "safety_zero": 5,
+        "hazard_overflow": 5
+      }
+    }
+  ],
+  "action_pick_rates": {
+    "A09": 0.061895551257253385,
+    "A17": 0.059961315280464215,
+    "A03": 0.05633462282398453,
+    "A22": 0.05560928433268859,
+    "A02": 0.05536750483558994,
+    "A08": 0.051015473887814314,
+    "A06": 0.0488394584139265,
+    "A24": 0.0488394584139265,
+    "A20": 0.048597678916827855,
+    "A19": 0.047147001934235974,
+    "A11": 0.046663442940038685,
+    "A10": 0.046663442940038685,
+    "A05": 0.04497098646034816,
+    "A13": 0.044003868471953575,
+    "A18": 0.04376208897485493,
+    "A23": 0.0425531914893617,
+    "A07": 0.04182785299806576,
+    "A01": 0.03916827852998066,
+    "A12": 0.03602514506769826,
+    "A16": 0.034574468085106384,
+    "A04": 0.026595744680851064,
+    "A15": 0.009429400386847196,
+    "A14": 0.00918762088974855,
+    "A21": 0.0009671179883945841
+  },
+  "result_distribution": {
+    "complete": 1117,
+    "maintain": 523,
+    "control": 261,
+    "wrong": 295
+  },
+  "post_distribution": {
+    "safety_officer": 1080,
+    "recorder": 1116
+  },
+  "run_id": "run_001_rules_baseline_smoke",
+  "seed": 20260428,
+  "games_per_scenario": 100,
+  "players": 4,
+  "modes": [
+    "teaching",
+    "standard",
+    "challenge"
+  ],
+  "include_strategies": false
+}

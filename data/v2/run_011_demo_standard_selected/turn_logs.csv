@@ -1,0 +1,9 @@
+﻿turn,task_id,event_id,post_id,result,selected_actions,progress_delta,safety_delta,hazard_delta,accident_delta,pending_state
+1,T09,E16,resource_manager,complete,A05|A11,1,0,0,0,none
+2,T13,E14,recorder,maintain,A17|A09,0,-1,1,0,critical
+3,T07,E18,operator,complete,A03|A10,2,0,-1,0,none
+4,T03,E20,resource_manager,complete,A24|A16,1,0,0,0,none
+5,T04,E13,safety_officer,complete,A07|A08,1,0,0,0,none
+6,T18,E26,recorder,complete,A19|A22,1,0,0,0,none
+7,T15,E13,safety_officer,wrong,A06|A01,0,-4,1,2,critical
+8,T12,E04,resource_manager,maintain,A23|A12,0,-1,1,0,critical

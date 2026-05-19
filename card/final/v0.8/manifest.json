@@ -1,0 +1,404 @@
+{
+  "card_count": 56,
+  "side_count": 112,
+  "role_counts": {
+    "林澄": 14,
+    "周衡": 14,
+    "顾宁": 14,
+    "程砚": 14
+  },
+  "cards": [
+    {
+      "card_id": "E01",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E01_front.png",
+      "back_path": "card/final/v0.8/events/E01_back.png"
+    },
+    {
+      "card_id": "E02",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E02_front.png",
+      "back_path": "card/final/v0.8/events/E02_back.png"
+    },
+    {
+      "card_id": "E03",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E03_front.png",
+      "back_path": "card/final/v0.8/events/E03_back.png"
+    },
+    {
+      "card_id": "E04",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E04_front.png",
+      "back_path": "card/final/v0.8/events/E04_back.png"
+    },
+    {
+      "card_id": "E05",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E05_front.png",
+      "back_path": "card/final/v0.8/events/E05_back.png"
+    },
+    {
+      "card_id": "E06",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E06_front.png",
+      "back_path": "card/final/v0.8/events/E06_back.png"
+    },
+    {
+      "card_id": "E07",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E07_front.png",
+      "back_path": "card/final/v0.8/events/E07_back.png"
+    },
+    {
+      "card_id": "E08",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E08_front.png",
+      "back_path": "card/final/v0.8/events/E08_back.png"
+    },
+    {
+      "card_id": "E09",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E09_front.png",
+      "back_path": "card/final/v0.8/events/E09_back.png"
+    },
+    {
+      "card_id": "E10",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E10_front.png",
+      "back_path": "card/final/v0.8/events/E10_back.png"
+    },
+    {
+      "card_id": "E11",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E11_front.png",
+      "back_path": "card/final/v0.8/events/E11_back.png"
+    },
+    {
+      "card_id": "E12",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E12_front.png",
+      "back_path": "card/final/v0.8/events/E12_back.png"
+    },
+    {
+      "card_id": "E13",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E13_front.png",
+      "back_path": "card/final/v0.8/events/E13_back.png"
+    },
+    {
+      "card_id": "E14",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E14_front.png",
+      "back_path": "card/final/v0.8/events/E14_back.png"
+    },
+    {
+      "card_id": "E15",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E15_front.png",
+      "back_path": "card/final/v0.8/events/E15_back.png"
+    },
+    {
+      "card_id": "E16",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E16_front.png",
+      "back_path": "card/final/v0.8/events/E16_back.png"
+    },
+    {
+      "card_id": "E17",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E17_front.png",
+      "back_path": "card/final/v0.8/events/E17_back.png"
+    },
+    {
+      "card_id": "E18",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E18_front.png",
+      "back_path": "card/final/v0.8/events/E18_back.png"
+    },
+    {
+      "card_id": "E19",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E19_front.png",
+      "back_path": "card/final/v0.8/events/E19_back.png"
+    },
+    {
+      "card_id": "E20",
+      "card_type": "event",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/events/E20_front.png",
+      "back_path": "card/final/v0.8/events/E20_back.png"
+    },
+    {
+      "card_id": "E21",
+      "card_type": "event",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/events/E21_front.png",
+      "back_path": "card/final/v0.8/events/E21_back.png"
+    },
+    {
+      "card_id": "E22",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E22_front.png",
+      "back_path": "card/final/v0.8/events/E22_back.png"
+    },
+    {
+      "card_id": "E23",
+      "card_type": "event",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/events/E23_front.png",
+      "back_path": "card/final/v0.8/events/E23_back.png"
+    },
+    {
+      "card_id": "E24",
+      "card_type": "event",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/events/E24_front.png",
+      "back_path": "card/final/v0.8/events/E24_back.png"
+    },
+    {
+      "card_id": "T01",
+      "card_type": "task",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/tasks/T01_front.png",
+      "back_path": "card/final/v0.8/tasks/T01_back.png"
+    },
+    {
+      "card_id": "T02",
+      "card_type": "task",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/tasks/T02_front.png",
+      "back_path": "card/final/v0.8/tasks/T02_back.png"
+    },
+    {
+      "card_id": "T03",
+      "card_type": "task",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/tasks/T03_front.png",
+      "back_path": "card/final/v0.8/tasks/T03_back.png"
+    },
+    {
+      "card_id": "T04",
+      "card_type": "task",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/tasks/T04_front.png",
+      "back_path": "card/final/v0.8/tasks/T04_back.png"
+    },
+    {
+      "card_id": "T05",
+      "card_type": "task",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/tasks/T05_front.png",
+      "back_path": "card/final/v0.8/tasks/T05_back.png"
+    },
+    {
+      "card_id": "T06",
+      "card_type": "task",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/tasks/T06_front.png",
+      "back_path": "card/final/v0.8/tasks/T06_back.png"
+    },
+    {
+      "card_id": "T07",
+      "card_type": "task",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/tasks/T07_front.png",
+      "back_path": "card/final/v0.8/tasks/T07_back.png"
+    },
+    {
+      "card_id": "T08",
+      "card_type": "task",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/tasks/T08_front.png",
+      "back_path": "card/final/v0.8/tasks/T08_back.png"
+    },
+    {
+      "card_id": "T09",
+      "card_type": "task",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/tasks/T09_front.png",
+      "back_path": "card/final/v0.8/tasks/T09_back.png"
+    },
+    {
+      "card_id": "T10",
+      "card_type": "task",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/tasks/T10_front.png",
+      "back_path": "card/final/v0.8/tasks/T10_back.png"
+    },
+    {
+      "card_id": "T11",
+      "card_type": "task",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/tasks/T11_front.png",
+      "back_path": "card/final/v0.8/tasks/T11_back.png"
+    },
+    {
+      "card_id": "T12",
+      "card_type": "task",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/tasks/T12_front.png",
+      "back_path": "card/final/v0.8/tasks/T12_back.png"
+    },
+    {
+      "card_id": "A01",
+      "card_type": "action",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/actions/A01_front.png",
+      "back_path": "card/final/v0.8/actions/A01_back.png"
+    },
+    {
+      "card_id": "A02",
+      "card_type": "action",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/actions/A02_front.png",
+      "back_path": "card/final/v0.8/actions/A02_back.png"
+    },
+    {
+      "card_id": "A03",
+      "card_type": "action",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/actions/A03_front.png",
+      "back_path": "card/final/v0.8/actions/A03_back.png"
+    },
+    {
+      "card_id": "A04",
+      "card_type": "action",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/actions/A04_front.png",
+      "back_path": "card/final/v0.8/actions/A04_back.png"
+    },
+    {
+      "card_id": "A05",
+      "card_type": "action",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/actions/A05_front.png",
+      "back_path": "card/final/v0.8/actions/A05_back.png"
+    },
+    {
+      "card_id": "A06",
+      "card_type": "action",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/actions/A06_front.png",
+      "back_path": "card/final/v0.8/actions/A06_back.png"
+    },
+    {
+      "card_id": "A07",
+      "card_type": "action",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/actions/A07_front.png",
+      "back_path": "card/final/v0.8/actions/A07_back.png"
+    },
+    {
+      "card_id": "A08",
+      "card_type": "action",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/actions/A08_front.png",
+      "back_path": "card/final/v0.8/actions/A08_back.png"
+    },
+    {
+      "card_id": "A09",
+      "card_type": "action",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/actions/A09_front.png",
+      "back_path": "card/final/v0.8/actions/A09_back.png"
+    },
+    {
+      "card_id": "A10",
+      "card_type": "action",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/actions/A10_front.png",
+      "back_path": "card/final/v0.8/actions/A10_back.png"
+    },
+    {
+      "card_id": "A11",
+      "card_type": "action",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/actions/A11_front.png",
+      "back_path": "card/final/v0.8/actions/A11_back.png"
+    },
+    {
+      "card_id": "A12",
+      "card_type": "action",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/actions/A12_front.png",
+      "back_path": "card/final/v0.8/actions/A12_back.png"
+    },
+    {
+      "card_id": "R01",
+      "card_type": "role",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/roles/R01_front.png",
+      "back_path": "card/final/v0.8/roles/R01_back.png"
+    },
+    {
+      "card_id": "R02",
+      "card_type": "role",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/roles/R02_front.png",
+      "back_path": "card/final/v0.8/roles/R02_back.png"
+    },
+    {
+      "card_id": "R03",
+      "card_type": "role",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/roles/R03_front.png",
+      "back_path": "card/final/v0.8/roles/R03_back.png"
+    },
+    {
+      "card_id": "R04",
+      "card_type": "role",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/roles/R04_front.png",
+      "back_path": "card/final/v0.8/roles/R04_back.png"
+    },
+    {
+      "card_id": "S01",
+      "card_type": "strategy",
+      "protagonist": "顾宁",
+      "front_path": "card/final/v0.8/strategies/S01_front.png",
+      "back_path": "card/final/v0.8/strategies/S01_back.png"
+    },
+    {
+      "card_id": "S02",
+      "card_type": "strategy",
+      "protagonist": "周衡",
+      "front_path": "card/final/v0.8/strategies/S02_front.png",
+      "back_path": "card/final/v0.8/strategies/S02_back.png"
+    },
+    {
+      "card_id": "S03",
+      "card_type": "strategy",
+      "protagonist": "林澄",
+      "front_path": "card/final/v0.8/strategies/S03_front.png",
+      "back_path": "card/final/v0.8/strategies/S03_back.png"
+    },
+    {
+      "card_id": "S04",
+      "card_type": "strategy",
+      "protagonist": "程砚",
+      "front_path": "card/final/v0.8/strategies/S04_front.png",
+      "back_path": "card/final/v0.8/strategies/S04_back.png"
+    }
+  ]
+}
