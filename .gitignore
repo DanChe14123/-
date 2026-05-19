@@ -10,6 +10,12 @@ env/
 .ruff_cache/
 .ipynb_checkpoints/
 
+# JavaScript dependencies and build output
+node_modules/
+dist/
+.next/
+public/card/final/v2/
+
 # Local editor and OS files
 .vscode/
 .idea/
